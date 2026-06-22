@@ -34,3 +34,73 @@ int main(){
     a1.getData();
     return 0;
 }
+
+
+// Knowledge:
+
+// ==========================================
+// Stack vs Heap Allocation
+// ==========================================
+
+// Stack Allocation
+// Animal a1;
+
+// Access members using:
+// a1.getData();
+// Use '.' with objects.
+
+// Heap Allocation
+// Animal* ptr = new Animal();
+
+// Access members using:
+// ptr->getData();
+// Use '->' with pointers.
+
+
+// ==========================================
+// Why This Gives Error
+// ==========================================
+
+// Animal a = new Animal();
+
+// Reason:
+// new Animal() returns a pointer (address).
+// Animal a expects an actual object.
+
+// Correct:
+// Animal* a = new Animal();
+
+// OR
+// Animal a;
+
+
+// ==========================================
+// Difference Between '.' and '->'
+// ==========================================
+
+// Object:
+
+// Animal a1;
+// a1.getData();
+
+// Pointer:
+// Animal* ptr = new Animal();
+// ptr->getData();
+
+// Equivalent form:
+// (*ptr).getData();
+// '->' is shorthand for (*ptr).
+
+
+// ==========================================
+// Relation to C#
+// ==========================================
+
+// C++
+// Animal a1;
+
+// C#
+// Animal a1 = new Animal();
+
+// In C#, class objects are reference types
+// and are typically created using 'new'.
