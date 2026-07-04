@@ -31,6 +31,7 @@ int main(){
     a1.setData(1,2,3);
     a1.d=234;
     a1.e=999;
+    // a1.a=45; // This will give an error because 'a' is private and cannot be accessed outside the class.
     a1.getData();
     return 0;
 }
