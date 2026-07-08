@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
 // Passing objects in class conecpts:
-
 class Complex{
     private:
     int a;
@@ -20,9 +18,10 @@ class Complex{
         cin>>b;
     }
 
-    // void setnumbysum(Complex obj1, Complex obj2){
-    //     a=obj1.
-    // }
+    void setnumbysum(Complex obj1, Complex obj2){
+        a=obj1.a+obj2.a;
+        b=obj1.b+obj2.b;
+    }
 
     void displaynum(){
         cout<<"Complete Numer is: "<<a<<" + "<<b<<"i"<<endl;
@@ -34,11 +33,14 @@ int main(){
     c1.setrealnum();
     c1.setcomplexnum();
     c1.displaynum();
-
+    
+    
     c2.setrealnum();
     c2.setcomplexnum();
     c2.displaynum();
-
+    
+    c3.setnumbysum(c1,c2);
+    c3.displaynum();
     
     return 0;
 }
