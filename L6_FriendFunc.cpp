@@ -120,14 +120,11 @@ Friend Functions
       c2.a ?
 
 - Therefore, we must explicitly specify the object:
-
       o1.a
       o2.a
 
   instead of simply writing:
-
       a
-
 --------------------------------------------------------------------
 
 Memory Trick
@@ -141,6 +138,5 @@ Friend Function
 → Not called by an object.
 → Compiler does not know whose data to access.
 → Must write: object.a (e.g., o1.a, o2.a)
-
 
 */
