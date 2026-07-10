@@ -12,7 +12,7 @@ class X{
         d1=x;
     }
 
-    friend void Addval(X obj1, Y obj2);
+    friend void Addval(X obj1, Y obj2); // Y is nowhere yet, We need Fwd Declaration Chief
 };
 
 class Y{
