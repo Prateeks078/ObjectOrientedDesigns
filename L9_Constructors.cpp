@@ -20,6 +20,8 @@ class Complex{
     }
 };
 
+
+// Comment it out and then check the difference u will notice the difference 
 Complex::Complex(void){
     a=100;
     b=10090;
