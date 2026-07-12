@@ -25,13 +25,15 @@ class Employee{
         Otherwise, the compiler doesn't know how to build the engine, so it gives an error.
     */
 
-    // Hence writing default constructor for Employee class 
+    // Hence writing default constructor for Employee class because when L-33 goes to Compiler, it gets confused and finds 
+    // It finds Employee default constructor but unfortunately we do not have that hence it is an impt concept to be noted bro 
     Employee(){};
 };
 
 //  Derived From Employee Class 
 class Programmer:public Employee{
     private:
+
     public:
     int languageid;
     Programmer(int inpId){
