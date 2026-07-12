@@ -31,7 +31,7 @@ class Employee{
 };
 
 //  Derived From Employee Class 
-class Programmer:public Employee{
+class Programmer:public Employee{ // Test with different visibility Modes 
     private:
 
     public:
