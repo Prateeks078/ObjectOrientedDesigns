@@ -28,7 +28,7 @@ int main(){
     B2.Greet();
 
     Derived D1;
-    // D1.greet(); --> This is Ambiguity 1 
+    // D1.greet(); --> This is Ambiguity 1 (Derived Class got confused, which Greet() to call on from here !!)
 
     return 0;
 }
