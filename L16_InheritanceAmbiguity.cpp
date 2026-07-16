@@ -33,7 +33,7 @@ class Derived2:public Base1,public Base2{
     public:
     // void Greet(){
     //     cout<<"I am greeting myself, Boys"<<endl;
-    // }
+    // }}}
 };
 
 int main(){
