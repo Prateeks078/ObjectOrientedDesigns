@@ -28,11 +28,12 @@ class Derived1:public Base1, public Base2{
 
 class Derived2:public Base1,public Base2{ 
     
-    // Ambiguity 2: If I am Having same function in Base Class, Then priority will be given to the Derived Class 
+    // Ambiguity 2: If I am Having same function in Base Class, 
+    //Then priority will be given to the Derived Class 
     public:
-    void Greet(){
-        cout<<"I am greeting myself, Boys"<<endl;
-    }
+    // void Greet(){
+    //     cout<<"I am greeting myself, Boys"<<endl;
+    // }
 };
 
 int main(){
