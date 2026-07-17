@@ -10,6 +10,8 @@ class Student{
         roll_no=r;
     }
 
+    //
+
     void printnum(){
         cout<<"Roll number of the Student is: "<<roll_no<<endl;
     }
