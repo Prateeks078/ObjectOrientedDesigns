@@ -68,3 +68,5 @@ int main(){
     Prateek.Display();
     return 0;
 }
+
+// No virtual base class in c#
