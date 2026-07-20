@@ -49,7 +49,7 @@ class Base2{
         data2=i;
         cout<<"Base2 Class Constructor is being called.."<<endl;
     }
-// c
+// Constructor
     void PrintBase2(){
         cout<<"The Value of Data is: "<<data2<<endl;
     }
