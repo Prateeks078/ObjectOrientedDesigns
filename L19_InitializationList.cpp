@@ -18,7 +18,6 @@ class Test{
     }
 
     */
-
     // Type 1
     // Test(int i, int j):a(i),b(j)
     // Test(int i, int j):a(i),b(i+1)
