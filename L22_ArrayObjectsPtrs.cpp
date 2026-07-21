@@ -43,5 +43,6 @@ int main(){
         temptr->getData();
         temptr++;
     }
+    
     return 0;
 }
