@@ -1,58 +1,13 @@
 {
   "sessions": {
-    "001e1120-122f-477f-855a-85a6bf46b935": {
-      "user_message_count": 1,
-      "agent_message_count": 1,
-      "start_timestamp": "2026-07-21T01:28:13+05:30",
-      "end_timestamp": "1970-01-01T05:30:00+05:30",
-      "markdown_size_bytes": 338,
-      "provider": "copilotide",
-      "last_updated": "2026-07-20T19:58:29Z"
-    },
-    "35e9a7dc-0737-40ca-9abf-1bf20583f6af": {
-      "user_message_count": 0,
-      "agent_message_count": 0,
-      "start_timestamp": "2026-07-07T09:17:54+05:30",
-      "end_timestamp": "1970-01-01T05:30:00+05:30",
-      "markdown_size_bytes": 171,
-      "provider": "copilotide",
-      "last_updated": "2026-07-07T03:48:46Z"
-    },
-    "470c5efb-3ed7-4661-aee8-75e15a050be3": {
-      "user_message_count": 0,
-      "agent_message_count": 0,
-      "start_timestamp": "2026-06-21T19:05:05+05:30",
-      "end_timestamp": "1970-01-01T05:30:00+05:30",
-      "markdown_size_bytes": 171,
-      "provider": "copilotide",
-      "last_updated": "2026-06-21T13:35:12Z"
-    },
     "9a7cced3-8053-42bf-81b5-4ac90846af47": {
       "user_message_count": 2,
       "agent_message_count": 2,
       "start_timestamp": "2026-07-06T23:38:50+05:30",
       "end_timestamp": "1970-01-01T05:30:00+05:30",
-      "markdown_size_bytes": 3281,
+      "markdown_size_bytes": 5474,
       "provider": "copilotide",
-      "last_updated": "2026-07-21T13:24:47Z"
-    },
-    "b8878e1b-4f98-43ba-9a7d-981b2996e6a0": {
-      "user_message_count": 1,
-      "agent_message_count": 1,
-      "start_timestamp": "2026-07-21T18:54:38+05:30",
-      "end_timestamp": "1970-01-01T05:30:00+05:30",
-      "markdown_size_bytes": 338,
-      "provider": "copilotide",
-      "last_updated": "2026-07-21T13:25:38Z"
-    },
-    "e0ffab53-ecac-45c7-b69d-7c8698175986": {
-      "user_message_count": 0,
-      "agent_message_count": 0,
-      "start_timestamp": "2026-06-21T21:51:42+05:30",
-      "end_timestamp": "1970-01-01T05:30:00+05:30",
-      "markdown_size_bytes": 171,
-      "provider": "copilotide",
-      "last_updated": "2026-06-21T16:22:06Z"
+      "last_updated": "2026-07-29T19:20:02Z"
     }
   }
 }
